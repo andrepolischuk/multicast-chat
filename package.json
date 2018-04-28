@@ -1,0 +1,27 @@
+{
+  "name": "multicast-chat",
+  "version": "0.0.0",
+  "description": "Yet another peer-to-peer stuff",
+  "scripts": {
+    "test": "standard",
+    "start": "node cli.js"
+  },
+  "author": "Andrey Polischuk <me@andrepolischuk.com> (https://andrepolischuk.com)",
+  "license": "MIT",
+  "dependencies": {
+    "airswarm": "^1.1.0",
+    "ansi-escapes": "^3.1.0",
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "fully-connected-topology": "^1.1.1",
+    "hash-to-port": "^1.0.0",
+    "level": "^3.0.0",
+    "lookup-multicast-dns": "^1.0.3",
+    "register-multicast-dns": "^1.1.0",
+    "scuttleup": "^3.3.0",
+    "stream-set": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
